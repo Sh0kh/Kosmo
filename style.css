@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1303px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto ;
+}
+.he1{
+    text-align: center;
+    cursor: pointer;
+    font-size: 50px;
+    margin-left:575px;
+    color: black;
+    
+
+}
+.he1:hover{
+    color:rgb(255, 255, 255);
+}
+.nav__ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* .nav__link{
+    margin-left: 50px;
+} */
+.nav{
+    margin-top:60px;
+}
+.header{
+    margin-top: 135px;
+}
+.nav__link{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.nav__link:hover{
+    color:rgb(255, 255, 255) ;
+}
+.fon{
+    background-color: rgba(144, 144, 148, 0.712);
+    height: 225px;
+    border-radius: 25px;
+
+}
+.fon1{
+    margin-top: 60px;
+    background-color: rgba(144, 144, 148, 0.712);
+    height: 500px;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom:30px;
+    display:flex;
+     align-items:start; 
+    justify-content:space-between;
+}
+.h2{
+    text-align: center;
+    margin-bottom: 25px; 
+}
+.hero__img{
+    background-image:url(https://futurenow.com.ua/wp-content/uploads/2020/04/tsikavi-fakty-pro-kosmos-12-rechej-v-yaki-vazhko-poviryty-2.jpg);
+    width: 100%;
+    height:100%;
+    width: 1000px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:25px;
+    margin-top:100px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.hero__text{
+    margin:15px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 551px;
+    height: 200px;
+    display: inline-block;
+}
+.k2__wrapper{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zag1{
+    text-align: center;
+    cursor: pointer;
+}
+.zag1:hover{
+    color: white;
+
+}
+.k2__img img {
+    width: 600px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.k2__text p{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.fon2{
+    margin-top: 60px;
+    background-color: rgba(144, 144, 148, 0.712);
+    /* height: 500px; */
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom:30px;
+}
+.k2__text2{
+    margin-top: 35px;
+}
+.k2__text2 h3{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.k2__text2 h3:hover{
+    color: aliceblue;
+}
